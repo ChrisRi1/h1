@@ -1,0 +1,71 @@
+.register_left_pane {
+  margin: 2% auto;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.register_left_pane span {
+  font-size: 1.3em;
+}
+.register_left_pane img {
+  margin-top: 15%;
+}
+
+.register_right_pane .alert {
+    font-size: 0.96em;
+    width: 70%;
+    margin: 0 0 2% 15%;
+}
+
+.register_right_pane .alert span{
+  font-size: 2.6vh;
+  font-weight: bold;
+  display: block;
+  width: 93%;
+}
+
+.register_right_pane .alert span:first-child{
+  font-size: 4vh;
+  display: block;
+  width: 5%;
+  float: left;
+  position: relative;
+  top: -0.9vh;
+  margin-right: 0.5vw;
+}
+
+.register_form {
+  width: 75%;
+  margin: 3% 0 0 15%;
+}
+
+.register_form_options {
+  margin: 1.5vw 1vw;
+  font-size: 2.3vh;
+  font-weight: bold;
+  font-family: 'OpenSansBold';
+}
+
+.register_form_options label {
+  cursor: pointer;
+}
+
+.register_form_options a {
+  text-decoration: none;
+  color: #000;
+  float: right;
+}
+
+.register_form_options a:hover {
+  border-bottom: 0.2vw solid rgba(0,0,0,0.5);
+}
+
+.register_form_button {
+  height: 3.3vw;
+  margin-top: 3vw;
+}
+
+.register_form_button #submit {
+  background-color: #2143b1;
+  color: #fff;
+}

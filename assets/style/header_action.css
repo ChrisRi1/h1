@@ -1,0 +1,154 @@
+#server_side_error {
+  font-size: 0.96em;
+  width: 90.2%;
+  margin-bottom: 1vw;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  background: #B71C1C;
+  padding: 1vw;
+  word-wrap: break-word;
+}
+
+main .activity_icon {
+  display: block;
+  height: 3vw;
+  margin: 3vw 0;
+}
+
+main span img{
+  height: 100%;
+  vertical-align: middle;
+}
+
+main span b{
+  font-size: 1.4vw;
+}
+
+.panel {
+  width: 70%;
+  padding: 2vw 5vw;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.panel article {
+  margin-bottom: 1.5vw;
+  background: #eee;
+  padding: 1vw;
+  border-radius: 5px;
+}
+
+.panel article img {
+  height: 2vw;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.panel article a{
+  text-decoration: none;
+  color: #000;
+}
+.panel article button {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.4);
+  height: 2vw;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: 1vw;
+  outline: none;
+  font-size: 0.9vw;
+  padding: 0 1vw;
+}
+
+.panel article button:hover {
+  outline: none;
+}
+
+.panel article button.confirm {
+  background: #2143b1;
+  color: #fff;
+}
+
+.panel_nav {
+  width: 20%;
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.panel_nav span {
+  width: 100%;
+  display: block;
+  padding: 1vw 2vw;
+  cursor: pointer;
+  font-size: 0.9vw;
+}
+#activePanel {
+  color: #000;
+  font-weight: bold;
+  background-color: #aaa3;
+  border-right: 5px solid #000;
+}
+.panel_nav span:hover {
+  color: #444;
+  background-color: #aaa1;
+}
+.panel .user_dp img{
+  display: inline-block;
+  border-radius: 50%;
+  height: 4vw;
+}
+.panel .user_name{
+  font-size: 1.3em;
+  font-weight: bold;
+  display: block;
+}
+.panel .changeProfilePic{
+  font-size: 0.9em;
+  color: #2143b1;
+  cursor: pointer;
+}
+.panel table {
+  width: 100%;
+}
+.panel table tr td:first-child {
+  text-align: right;
+  padding: 1.5vw 1vw;
+  vertical-align: top;
+  width: 30%;
+  font-weight: bold;
+}
+.panel table tr td:nth-child(2) {
+  text-align: righ;
+}
+.panel input,
+.panel select,
+.panel textarea {
+  width: 80%;
+  padding: 0.5vw;
+  outline: none;
+}
+.panel textarea {
+  resize: vertical;
+  height: 10vw;
+}
+.panel button.save{
+  display: block;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5vw 1.2vw;
+  color: #fff;
+  background-color: #2143b1;
+  border: 0;
+}
+.panel button.save:hover{
+  background-color: #000;
+  cursor: pointer;
+}

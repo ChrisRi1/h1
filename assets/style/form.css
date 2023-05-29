@@ -1,0 +1,144 @@
+#server_side_error {
+    font-size: 0.96em;
+    width: 75%;
+    margin: 0 0 0 15%;
+    color: #fff;
+    background: #B71C1C;
+    padding: 1vw;
+}
+
+.input_container {
+  width: 100%;
+  height: 4.5vw;
+  margin-bottom: 2vw;
+  background-color: #ced1e4;
+  padding: 0.3vw;
+  border-radius: 0.7vw;
+}
+
+.input_container:hover {
+  background-color: #b7bacb;
+  transition: background-color 0.5s;
+}
+
+.input_container:not(:hover) {
+  background-color: #ced1e4;
+  transition: background-color 0.5s;
+}
+
+.inputFormError {
+  background: #B71C1C; /*Green: 558B2F*/
+  color: #fff;
+  padding: 0.5vw;
+  margin-bottom: 0.3vw;
+  border-radius: 3px;
+  font-size: 0.9vw;
+  display: none;
+}
+
+.input_icon {
+  width: 15.505%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.input_icon img {
+    height: 60%;
+    vertical-align: middle;
+}
+.input_icon span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.input_area {
+  width: 82%;
+  height: 100%;
+  float: right;
+}
+
+.input_area label {
+  font-size: 1.1vw;
+  width: 100%;
+  height: 46%;
+  display: block;
+  color: #777;
+}
+
+.input_area input {
+  display: block;
+  height: 50%;
+  width: 100%;
+  border: none;
+  padding-left: 0.3vw;
+  font-size: 3.2vh;
+  color: #444;
+  background-color: rgba(0,0,0,0);
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #666;
+        background: transparent;
+        font-size: 3.2vh;
+    }
+}
+
+.input_area input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+.input_area input:focus {
+  outline: none;
+  color: #000;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.4vw;
+  height: 1.4vw;
+  background: url('../images/icons/unchecked-checkbox-50.png')left top no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + span{
+  background: url('../images/icons/checked-checkbox-50.png') left top no-repeat;
+  background-size: contain;
+}
+
+.bottom_buttons input[type=submit],.bottom_buttons button {
+  font-size: 1vw;
+  font-family: 'OpenSansBold';
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 2.5vw;
+  background: #eee;
+  margin-right: 2vw;
+  border-radius: 2vw 2vw;
+  box-shadow: 0 0 0.7vw 0 rgba(0,0,0,0.1);
+}
+
+.bottom_buttons input[type=submit]:hover,.bottom_buttons button:hover {
+  outline: none;
+  box-shadow: 0 0.4vw 1vw 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.5s;
+}
+
+.bottom_buttons input[type=submit]:focus,.bottom_buttons button:focus {
+  outline: none;
+}
+
+.bottom_buttons input[type=submit]:not(:hover),.bottom_buttons button:not(:hover) {
+  box-shadow: 0 0 0.7vw 0 rgba(0,0,0,0.1);
+  transition: box-shadow 0.5s;
+}

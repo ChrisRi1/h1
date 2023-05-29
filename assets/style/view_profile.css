@@ -1,0 +1,91 @@
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.profile_card {
+  width: 25vw;
+  margin: 2vw 0;
+  display: inline-block;
+  position: fixed;
+}
+
+section.profile_card .profile_pic {
+  width: 10vw;
+  height: 10vw;
+}
+
+section.profile_card .profile_pic img{
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+section.profile_card .profile_info{
+
+}
+
+section.profile_card .profile_info .follow{
+  margin-top: 1vw;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 0.3vw 2vw;
+  border-radius: 5px;
+  font-size: 0.9vw;
+  cursor: pointer;
+}
+
+section.profile_card .profile_info .follow:focus{
+  outline: none;
+}
+
+section.profile_card .profile_info .follow:hover{
+  opacity: 0.5;
+}
+
+section.profile_card .profile_info .user_tag{
+  display: block;
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+section.profile_card .profile_info .user_follow{
+  display: block;
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+
+section.profile_card .profile_info .user_name{
+  display: block;
+  font-size: 1vw;
+}
+
+section.profile_card .profile_info .user_about{
+  display: block;
+  width: 90%;
+  font-size: 1.1vw;
+  margin: 1vw 0;
+}
+
+section.gallary{
+  width: 55vw;
+  margin: 2vw 0;
+  margin-left: 24vw;
+}
+
+section.gallary .image{
+  height: 20vw;
+  width: 20vw;
+  background: #000;
+  margin: 1vw;
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+section.gallary article img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

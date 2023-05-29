@@ -1,0 +1,149 @@
+.login_left_pane {
+  margin: 2% auto;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.login_left_pane span {
+  font-size: 1.3em;
+}
+
+.login_right_pane .alert {
+    font-size: 0.96em;
+    width: 70%;
+    margin: 0 0 2% 15%;
+}
+
+.login_right_pane .alert span{
+  font-size: 2.2vh;
+  display: block;
+  width: 93%;
+}
+
+.login_right_pane .alert span:first-child{
+  font-size: 7vh;
+  display: block;
+  width: 5%;
+  float: left;
+  position: relative;
+  top: -1.9vh;
+  margin-right: 0.5vw;
+}
+
+.login_form {
+  width: 75%;
+  margin: 5% 0 0 15%;
+}
+
+.login_form_options {
+  margin: 1.5vw 1vw;
+  font-size: 2.3vh;
+  font-weight: bold;
+  font-family: 'OpenSansBold';
+}
+
+.login_form_options label {
+  cursor: pointer;
+}
+
+.login_form_options a {
+  text-decoration: none;
+  color: #000;
+  float: right;
+}
+
+.login_form_options a:hover {
+  border-bottom: 0.2vw solid rgba(0,0,0,0.5);
+}
+
+.login_form_button {
+  height: 3.3vw;
+  margin-top: 3vw;
+}
+
+.login_form_button #submit {
+  background-color: #2143b1;
+  color: #fff;
+}
+
+#reset_popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+}
+
+#reset_popup .close {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 2vw;
+  align-self: flex-end;
+  margin-top: 1vw;
+  margin-right: 2vw;
+}
+
+#reset_form {
+  height: 50%;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+#reset_form span{
+  color: #2143b1;
+  font-size: 3vw;
+  font-family: SpaceMonoBold;
+  display: block;
+}
+
+#reset_form form {
+  height: 5vw;
+  margin-top: 4vw;
+}
+
+#reset_form input{
+  background: rgba(255,255,255,0.1);
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 30vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  font-size: 2vw;
+  font-weight: bold;
+  border-radius: 0.5vw;
+}
+
+#reset_form input:hover{
+  outline: none;
+}
+
+#reset_form button{
+  margin-left: 1vw;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 5vw;
+  float: right;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.04);
+}
+
+#reset_form button:hover{
+  background-color: rgba(255,255,255,0.09);
+}
+
+#reset_form button:focus{
+  outline: none;
+}
+#reset_form button img{
+  width: 100%;
+}

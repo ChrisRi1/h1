@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMonoBold';
+  src: url('../fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #e4e9fd;
+  font-family: 'OpenSans';
+  margin: 0;
+  font-size: 2.1vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'SpaceMonoBold';
+  font-size: 3.6vh;
+}
+
+header {
+  margin: 2vw 7vw;
+  margin-bottom: 0;
+}
+
+header #logo {
+  width: 20vh;
+}
+
+main {
+  flex: 1;
+  margin: 0vw 7vw;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: OpenSansBold;
+}
+
+.blue { color: #2143b1;}
+
+#left_pane {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+  font-size: 2.4vh;
+  display: inline-block;
+}
+
+#right_pane {
+  width: 50%;
+  display: inline-block;
+}
+
+footer {
+  font-family: 'SpaceMono';
+  font-size: 0.8vw;
+  background: rgba(0,0,0,0.01);
+  margin-top: 2vw;
+  padding: 0.5vw 7vw;
+}
+
+footer img {
+  height: 1.5vw;
+  vertical-align: middle;
+}
+
+footer #copyright {
+  float: right;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+  #left_pane{
+    display: none;
+  }
+  #right_pane {
+    width: 100%;
+  }
+}

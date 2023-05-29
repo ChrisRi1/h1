@@ -1,0 +1,236 @@
+#post {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 2vw;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 1vw;
+}
+
+#post .title {
+  display: inline-block;
+}
+
+#post .title img{
+  vertical-align: middle;
+  height: 2vw;
+  width: 2vw;
+  margin-right: 1vw;
+}
+
+#file_upload_preview {
+  width: 100%;
+  margin-top: 1vw;
+  border-radius: 5px;
+}
+
+#post form .image_upload {
+  width: 100%;
+  height: 3vw;
+  box-shadow: inset 0 0 2vw 0.5vw rgba(0,0,0,0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  border: 2px dashed rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+#post form .image_upload img{
+  height: 100%;
+  margin-right: 0.5vw;
+  vertical-align: middle;
+}
+
+#post form .image_upload span{
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 1vw;
+}
+
+#post textarea {
+  resize: vertical;
+  width: 100%;
+  height: 5vw;
+  padding: 1vw;
+  margin-top: 2vw;
+  border: 1px dashed rgba(0,0,0,0.1);
+}
+
+#post button {
+  width: 10vw;
+  font-size: 1vw;
+  border: none;
+  cursor: pointer;
+  margin-top: 1vw;
+  background: #2143b1;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7vw;
+  border-radius: 5px;
+}
+
+#post button:hover {
+  outline: none;
+}
+
+#post button[type='reset'] {
+  background-color: #aaa;
+  color: #000;
+}
+
+.profile_post {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 2vw;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.profile_post .top {
+  height: 3vw;
+  margin: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_post .top .user_dp{
+  height: 90%;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.profile_post .top .user_name{
+  font-size: 1vw;
+  font-weight: bold;
+  flex: 1;
+  margin-left: 1vw;
+  align-self: center;
+}
+
+.profile_post .top .menu{
+  height: 40%;
+  align-self: center;
+  cursor: pointer;
+}
+
+.profile_post .top .postEditOptions{
+  visibility: hidden;
+  z-index: 10;
+  background: #000;
+  color: #fff;
+  width: 6vw;
+  position: absolute;
+  left: 54vw;
+  margin-top: 1.3vw;
+  border-radius: 4px;
+  box-shadow: 0 0.6vw 0.5vw 0.1vw rgba(0,0,0,0.1);
+}
+
+.profile_post .top .postEditOptions form button{
+  width: 100%;
+  color: #aaa;
+  font-size: 0.8vw;
+  font-family: 'OpenSans';
+  background: none;
+  border: none;
+  padding: 10% 0;
+  border-bottom: 1px solid #fff1;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile_post .top .postEditOptions form button:hover{
+  color: #fff;
+}
+.profile_post .image img{
+  width: 100%;
+}
+
+.profile_post .textStatus{
+  padding: 2vw;
+  background: #eee;
+  color: #444;
+  font-size: 1.5vw;
+  font-family: SpaceMonoBold;
+}
+
+.profile_post .bottom {
+  margin: 1vw;
+  font-size: 0.9vw;
+}
+
+.profile_post .bottom img{
+  height: 100%;
+}
+
+.profile_post .bottom .like,
+.profile_post .bottom .liked{
+  height: 2vw;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.profile_post .bottom .like:hover,
+.profile_post .bottom .liked:hover{
+  opacity: 0.6;
+}
+
+.profile_post .bottom .liked{
+  display: none;
+}
+
+.profile_post .bottom #like_count{
+  font-weight: bold;
+}
+
+.profile_post .bottom #caption {
+  display: block;
+  padding: 1vw;
+  border-bottom: 1px solid #eee;
+}
+
+.profile_post .comment_feed {
+  margin: 2vw;
+  font-size: 0.9vw;
+}
+
+.profile_post .comment_feed div {
+  padding-bottom: 0.5vw;
+  word-break: break-all;
+  text-align: justify;
+}
+
+.profile_post .comment_feed div b{
+  margin-right: 1vw;
+  line-height: 1.5vw;
+}
+
+.profile_post input[name="comment"] {
+  width: 100%;
+  height: 3vw;
+  padding: 1vw;
+  padding-right: 4vw;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #777;
+  display: inline-block;
+}
+
+.profile_post input[name="comment"]:focus {
+  outline: none;
+}
+
+.profile_post button[type="submit"].btn{
+  position: absolute;
+  color: #2143b1;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: -3.5vw;
+  margin-top: 0.8vw;
+  font-size: 0.9vw;
+  font-weight: bold;
+  opacity: 0.7;
+}
